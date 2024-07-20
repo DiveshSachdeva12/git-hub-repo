@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding:5rem;
+    height: 1000px;
+    gap: 3rem;
+
+}
+
+.item{
+    background-color: white;
+    border: 2px solid black;
+    /* padding: 2rem; */
+    /* width: 20vw; */
+    margin-top: -2rem;
+}
+#first-box{
+background-image:url(https://plus.unsplash.com/premium_photo-1711043989409-2b24e127d61f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG5ldyUyMGdhZGdldCUyMHJlbGVhc2VkfGVufDB8fDB8fHww);
+background-size: 20rem;
+background-repeat: no-repeat;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 20px  rgb(217, 217, 217);
+transition: all 0.5s linear ;
+
+}
+#first-box:hover{
+    transform: scale(0.9);
+    filter: grayscale(1);
+}
+#box-1-head{
+margin-top: 15rem;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+margin-left: 1rem;
+}
+#first-box-p{
+/* display: flex;
+justify-content: center;
+align-items: center; */
+margin-left: 1rem;
+margin-top: 0.5rem;
+color: rgb(90, 88, 88);
+}
+#user-logo
+{
+    height: 80px;
+}
+#user-name{
+    margin-top: -4rem;
+    margin-left: 5rem;
+    font-family:    Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color:rgb(118, 107, 107);
+}
+#user-date{
+    margin-left: 5rem;
+    color:rgb(118, 107, 107);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.4rem;
+}
+#Technology-btns
+{
+        background-color: white;
+        margin-left: 13rem;
+        margin-top: -20rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+}
+#Technology-btns:active{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* ----------------------- box -2 */
+#second-box{
+    background-image: url(https://cdn.pixabay.com/photo/2019/05/27/07/26/mental-health-4232031_640.jpg);
+    background-size: 22.6rem;
+background-repeat: no-repeat;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 20px  rgb(217, 217, 217);
+transition: all 0.5s linear ;
+}
+#second-box:hover{
+    filter: grayscale(1);
+    transform: scale(0.9);
+}
+#box-2-head{
+    margin-top: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+#second-box-p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(90, 88, 88);
+}
+#user-logo-2{
+    height: 80px;
+}
+#user-name-2{
+    margin-top: -4rem;
+    margin-left: 5rem;
+    font-family:    Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color:rgb(118, 107, 107);
+}
+#Nutrition-btns{
+    background-color: white;
+    margin-left: 13rem;
+    margin-top: -20rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#Nutrition-btns:active{
+    background-color: black;
+    color: white;
+}
+#user-date-2{
+    margin-left: 5rem;
+    color:rgb(118, 107, 107);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.4rem;
+}
+
+
+/* --------------------------------------------- third box */
+#third-box{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2591874_640.jpg);
+    background-size: 20rem;
+background-repeat: no-repeat;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 20px  rgb(217, 217, 217);
+transition: all 0.5s linear ;
+}
+    #third-box:hover{
+        filter: grayscale(1);
+        transform: scale(0.9);
+        
+}
+#box-3-head{
+    margin-top: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+
+#third-box-p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(90, 88, 88);
+}
+
+#user-logo-3{
+    height: 78px;
+}
+#user-name-3{
+    margin-top: -4rem;
+    margin-left: 5rem;
+    font-family:    Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color:rgb(118, 107, 107);
+}
+#travel-btns{
+    background-color: white;
+    margin-left: 13rem;
+    margin-top: -20rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#user-date-3{
+    margin-left: 5rem;
+    color:rgb(118, 107, 107);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.4rem;
+}
+#travel-btns:active{
+    background-color: black;
+    color: white;
+}
+
+
+/* ------------------------------------------ */
+
+#fourth-box{
+    background-image: url(https://media.istockphoto.com/id/1161898151/photo/close-up-of-calendar-and-alarm-clock-on-the-green-background-planning-for-business-meeting-or.webp?b=1&s=612x612&w=0&k=20&c=KP1CvbCxYNfR7YsKRel_tdR443wIP6vxRFzbsbNfy20=);
+    background-size: 20rem;
+background-repeat: no-repeat;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 20px  rgb(217, 217, 217);
+transition: all 0.5s linear ;
+
+}
+#fourth-box:hover{
+    filter: grayscale(1);
+    transform: scale(0.9);
+}
+#box-4-head{
+    margin-top: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+#fourth-box-p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(90, 88, 88);
+}
+#user-logo-4{
+    height: 78px;
+}
+#user-name-4{
+    margin-top: -4rem;
+    margin-left: 5rem;
+    font-family:    Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color:rgb(118, 107, 107);
+}
+#time-btns{
+    background-color: white;
+    margin-left: 13rem;
+    margin-top: -20rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#user-date-4{
+    margin-left: 5rem;
+    color:rgb(118, 107, 107);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.4rem;
+}
+#time-btns:active{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+/* -------------------------- box-5 */
+#fifth-box{
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/24/05/02/drop-of-water-578897_640.jpg);
+    background-size: 20rem;
+background-repeat: no-repeat;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 20px  rgb(217, 217, 217);
+transition: all 0.5s linear ;
+}
+#fifth-box:hover{
+    filter: grayscale(1);
+    transform: scale(0.9);
+}
+#box-5-head{
+    margin-top: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+#fifth-box-p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(90, 88, 88);
+}
+#user-logo-5{
+    height: 78px;
+}
+#user-name-5{
+    margin-top: -4rem;
+    margin-left: 5rem;
+    font-family:    Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color:rgb(118, 107, 107);
+}
+#mind-btns{
+    background-color: white;
+    margin-left: 13rem;
+    margin-top: -20rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#user-date-5{
+    margin-left: 5rem;
+    color:rgb(118, 107, 107);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.4rem;
+}
+#mind-btns:active{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* -----------------------six box */
+#six-box{
+background-image: url(https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_640.jpg);
+background-size: 22rem;
+background-repeat: no-repeat;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 20px  rgb(217, 217, 217);
+transition: all 0.5s linear ;
+
+}
+#six-box:hover{
+    filter: grayscale(1);
+    transform: scale(0.9);
+}
+#box-6-head{
+    margin-top: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+#sixth-box-p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(90, 88, 88);
+}
+#user-logo-6{
+    height: 78px;
+}
+#user-name-6{
+    margin-top: -4rem;
+    margin-left: 5rem;
+    font-family:    Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color:rgb(118, 107, 107);
+}
+#decor-btns{
+    background-color: white;
+    margin-left: 13rem;
+    margin-top: -20rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#user-date-6{
+    margin-left: 5rem;
+    color:rgb(118, 107, 107);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.4rem;
+}
+#decor-btns:active{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* -------------------------------------- seven  box */
+#seven-box{
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/28/23/53/spotify-1360002_640.jpg);
+    background-size: 22rem;
+background-repeat: no-repeat;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 20px  rgb(217, 217, 217);
+transition: all 0.5s linear ;
+
+}
+#seven-box:hover{
+    filter: grayscale(1);
+    transform: scale(0.9);
+}
+#box-7-head{
+    margin-top: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+#seven-box-p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(90, 88, 88);
+}
+#user-logo-7{
+    height: 78px;
+}
+#user-name-7{
+    margin-top: -4rem;
+    margin-left: 5rem;
+    font-family:    Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color:rgb(118, 107, 107);
+}
+#Sustanability-btn{
+    background-color: white;
+    margin-left: 13rem;
+    margin-top: -20rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#user-date-7{
+    margin-left: 5rem;
+    color:rgb(118, 107, 107);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.4rem;
+}
+#Sustanability-btn:active{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* ---------------------------------box-8 */
+#eight-box{
+background-image: url(https://cdn.pixabay.com/photo/2024/02/19/08/49/hibiscus-8582876_640.jpg);
+background-size: 19.4rem;
+background-repeat: no-repeat;
+border-radius: 5px;
+border: none;
+box-shadow: 1px 1px 20px  rgb(217, 217, 217);
+transition: all 0.5s linear ;
+}
+#eight-box:hover{
+    filter: grayscale(1);
+    transform: scale(0.9);
+}
+#box-8-head{
+    margin-top: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+#eight-box-p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: rgb(90, 88, 88);
+}
+#user-logo-8{
+    height: 78px;
+}
+#user-name-8{
+    margin-top: -4rem;
+    margin-left: 5rem;
+    font-family:    Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color:rgb(118, 107, 107);
+}
+#Positivity-btn{
+    background-color: white;
+    margin-left: 13rem;
+    margin-top: -20rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+#user-date-8{
+    margin-left: 5rem;
+    color:rgb(118, 107, 107);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.4rem;
+}
+#Positivity-btn:active{
+    background-color: black;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+
+        
+    }
+    @media (max-width: 668px){
+    
+        .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        gap: 5rem;
+        margin-top: 102rem;
+
+
+        }
+        
+        
+        #first-box, #second-box ,#third-box,#fourth-box,#fifth-box,#six-box,#seven-box,#eight-box{
+            background-size: 23.5rem;
+            width:90vw;
+            padding-right: 1em;
+            padding-top: 2em;
+            padding-bottom: 3rem;
+
+        }
+    
+
+       #user-logo, #user-logo-2, #user-logo-3, #user-logo-4, #user-logo-5 ,#user-logo-6,#user-logo-7, #user-logo-8{
+        height: 50px;
+        margin-left: 1rem;
+        margin-top: 2rem;
+
+       }
+       #user-name, #user-name-2, #user-name-3, #user-name-4, #user-name-5 ,#user-name-6,#user-name-7, #user-name-8{
+        padding-top: 1rem;
+       }
+       p{
+        font-size: 15px;
+        
+       }
+       
+    }
+    
+}
